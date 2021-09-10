@@ -46,7 +46,7 @@ Architecture & Training
 6. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) and is used for Transfer Learning using MobileNetV2.
 
 7. Code ["7.Train.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/7.Train.R) is used for Training a model.
-- Optimizer: SGD, learning rate = 5e-3, momentum  = 0.9, batch size = 16
+- Optimizer: SGD, Learning rate = 5e-3, Momentum  = 0.9, Batch size = 16
 - Loss Function: Focal Loss(For predicting bbox), Log Cosh (For predicting object)
 
 Model Performance
