@@ -18,8 +18,11 @@ R, MxNet
 
 Image Preprocessing & Box Annotation
 ---
-1. Code ["1.Clean Data.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/1.Clean%20Data.R) and is used for data splitting(train/test).
+1. Code ["1.Clean Data.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/1.Clean%20Data.R) and is used for original txt cleaning.
+(Original Training bbx: wider_face_train_bbx_gt.txt, Validation bbx: wider_face_val_bbx_gt.txt["1.Clean Data_val.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/1.Clean%20Data_val.R))
+
 2. Code ["2.Image_preprocessing.py"](https://github.com/xup6YJ/Tuberculosis-Classification/blob/main/TB_Example/2.Image_preprocessing.py) is used for customed image function(Crop middle/ Histogram equalization).
+
 3. Code ["3.Train.py"](https://github.com/xup6YJ/Tuberculosis-Classification/blob/main/TB_Example/3.Train.py) is for model training using Bootstrapping approach.
 4. Code ["4.Evaluation.py"](https://github.com/xup6YJ/Tuberculosis-Classification/blob/main/TB_Example/4.Evaluation.py) is used for concating and evaluating all the bootstrapping results.
 
