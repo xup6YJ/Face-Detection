@@ -1,7 +1,7 @@
 # Face-Detection
 Deep Learning approach on Face Detection using YOLOv1
 
-Example Vedio:https://www.youtube.com/watch?v=IBmOdlBjr4c&ab_channel=YJLin
+Example Video on Youtube: https://www.youtube.com/watch?v=IBmOdlBjr4c&ab_channel=YJLin
 
 # Data Resource & Citation
 Citation: 	
