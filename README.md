@@ -35,16 +35,20 @@ Encode & Decode Function
 
 Architecture & Training
 ---
-5. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) and is used for original txt cleaning.
-- Original Training bbx: wider_face_train_bbx_gt.txt, Validation bbx: wider_face_val_bbx_gt.txt 
-- Code for validation set: ["1.Clean Data_val.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/1.Clean%20Data_val.R)
+5. Code ["4.Iterator.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/4.Iterator.R) and is used for cropping and flipping image randomly.
 
-6. Code ["7.Train.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/7.Train.R) is used for making standard annotation of bbox.
-- Annotate col_left, row_top, bbox_center_col, bbox_center_row of the bbx
-- Code for validation set: ["2.Define bbox_val.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/2.Define%20bbox_val.R)
+6. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) and is used for Transfer Learning using MobileNetV2.
+
+7. Code ["7.Train.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/7.Train.R) is used for Training a model.
+- Optimizer: SGD, learning rate = 5e-3, momentum  = 0.9, batch size = 16
+- Loss Function: Focal Loss(For predicting bbox), Log Cosh (For predicting object)
 
 Model performance
 ---
+8. Code ["8.MAP.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/8.MAP.R) and is used for calculating MAP.
+- We got a result in 44% under the circumstance of MAP50(IOU-cut: 0.5). 
+
+9. Code ["9.Prediction.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/9.Prediction.R) is used for predicting other images which contain faces.
 
 R Shiny UI Server
 ---
