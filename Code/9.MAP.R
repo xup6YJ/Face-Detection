@@ -553,25 +553,6 @@ val_iter <- my_iterator_func(iter = NULL,
                             train_val = 'valid')
 
 ###cauculate MAP
-result = rep(0, 21)
-
-for (i in 1:21) {
-  # Load well-train model
-  index = i+29
-  print(index)
-  YOLO_model <- mx.model.load('WireFace/model_288/model', index)
-  ap_list <- model_AP_func(model = YOLO_model, Iterator = val_iter, IoU_cut = 0.5)
-  MAP <- mean(ap_list)
-  result[i] = MAP
-}
-
-best_model = which(result == max(result))
-index = best_model+29
-
-max(result)
-
-#################################
-
 YOLO_model <- mx.model.load('WireFace/model/model', 30)
 ap_list <- model_AP_func(model = YOLO_model, Iterator = val_iter, IoU_cut = 0.5)
 MAP <- mean(ap_list)
