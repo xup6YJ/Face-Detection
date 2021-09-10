@@ -52,7 +52,7 @@ Architecture & Training
 Model Performance
 ---
 8. Code ["8.MAP.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/8.MAP.R) and is used for calculating MAP.
-- We got a result in 44% under the circumstance of MAP50(IOU-cut: 0.5). 
+- We got a result in MAP: 44% under the circumstance of IOU cut : 50%. 
 
 9. Code ["9.Prediction.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/9.Prediction.R) is used for predicting other images which contain faces.
 
