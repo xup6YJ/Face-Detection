@@ -52,4 +52,4 @@ Model performance
 
 R Shiny UI Server
 ---
-Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["ui.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)is used for building API sever.
+Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["UI.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)is used for building API sever.
