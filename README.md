@@ -59,6 +59,8 @@ Model Performance
 # R Shiny UI Server
 Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["UI.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)is used for building API sever.
 
+PS: We did not upload all the images used in UI server, you might encounter an error while compiling.
+
 <p align="center">
   <img src="Example Image/2.jpg">
 </p>
