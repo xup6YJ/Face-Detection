@@ -47,7 +47,7 @@ Architecture & Training
 - Optimizer: SGD, learning rate = 5e-3, momentum  = 0.9, batch size = 16
 - Loss Function: Focal Loss(For predicting bbox), Log Cosh (For predicting object)
 
-Model performance
+Model Performance
 ---
 8. Code ["8.MAP.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/8.MAP.R) and is used for calculating MAP.
 - We got a result in 44% under the circumstance of MAP50(IOU-cut: 0.5). 
