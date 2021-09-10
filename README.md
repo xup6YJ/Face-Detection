@@ -37,6 +37,10 @@ Architecture & Training
 ---
 5. Code ["4.Iterator.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/4.Iterator.R) and is used for cropping and flipping image randomly.
 
+<p align="center">
+  <img src="Example Image/example1.jpg">
+</p>
+
 6. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) and is used for Transfer Learning using MobileNetV2.
 
 7. Code ["7.Train.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/7.Train.R) is used for Training a model.
@@ -53,3 +57,7 @@ Model performance
 R Shiny UI Server
 ---
 Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["UI.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)is used for building API sever.
+
+<p align="center">
+  <img src="Example Image/2.jpg">
+</p>
