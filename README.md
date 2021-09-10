@@ -11,7 +11,7 @@ Citation:
 	Title = {WIDER FACE: A Face Detection Benchmark},
 	Year = {2016}}
 
-URL:http://shuoyang1213.me/WIDERFACE/
+URL: http://shuoyang1213.me/WIDERFACE/
 
 # Enviornment & Deep Learning Framework
 R, MxNet
