@@ -18,7 +18,7 @@ R, MxNet
 
 # Training Instructions
 
-Image Preprocessing & Box Annotation
+Image Preprocessing & Bounding Box Adjustment
 ---
 1. Code ["1.Clean Data.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/1.Clean%20Data.R) and is used for original txt cleaning.
 - Original Training bbx: wider_face_train_bbx_gt.txt, Validation bbx: wider_face_val_bbx_gt.txt 
@@ -29,7 +29,7 @@ Image Preprocessing & Box Annotation
 - Code for validation set: ["2.Define bbox_val.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/2.Define%20bbox_val.R)
 
 3. Code ["Preprocess_image.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/Preprocess_image.R) is for resizing the images.
-- Train data resize in 288x288(For further Random Crop), Validation data resize in 256x256
+- Train data resize in 288x288(For further Random Cropping), Validation data resize in 256x256
 
 Encode & Decode Function
 ---
