@@ -37,13 +37,13 @@ Encode & Decode Function
 
 Architecture & Training
 ---
-5. Code ["4.Iterator.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/4.Iterator.R) and is used for cropping and flipping image randomly.
+5. Code ["4.Iterator.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/4.Iterator.R) is used for cropping and flipping image randomly.
 
 <p align="center">
   <img src="Example Image/example1.jpg">
 </p>
 
-6. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) and is used for Transfer Learning using MobileNetV2.
+6. Code ["5.Architecture.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/5.Architecture.R) is used for Transfer Learning using MobileNetV2.
 
 7. Code ["7.Train.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/7.Train.R) is used for Training a model.
 - Optimizer: SGD, Learning rate = 5e-3, Momentum  = 0.9, Batch size = 16
@@ -51,13 +51,13 @@ Architecture & Training
 
 Model Performance
 ---
-8. Code ["8.MAP.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/8.MAP.R) and is used for calculating MAP.
+8. Code ["8.MAP.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/8.MAP.R) is used for calculating MAP.
 - We got a result in MAP: 44% under the circumstance of IOU cutpoint: 50%. 
 
 9. Code ["9.Prediction.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/9.Prediction.R) is used for predicting other images which contain faces.
 
 # R Shiny UI Server
-Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["UI.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)is used for building API sever.
+Code ["Server.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/Server.R) and Code ["UI.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Shiny%20UI%20Code/UI.R)are used for building API sever.
 
 PS: We did not upload all the images used in UI server, you might encounter an error while compiling.
 
