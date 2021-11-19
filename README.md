@@ -28,7 +28,7 @@ Image Preprocessing & Bounding Box Adjustment
 - Annotate col_left, row_top, bbox_center_col, bbox_center_row of the bbx
 - Code for validation set: ["2.Define bbox_val.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/2.Define%20bbox_val.R)
 
-3. Code ["Preprocess_image.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/Preprocess_image.R) is for resizing the images.
+3. Code ["Preprocess_image.R"](https://github.com/xup6YJ/Face-Detection/blob/main/Code/Preprocess_image.R) is used for resizing the images.
 - Train data resize in 288x288(For further Random Cropping), Validation data resize in 256x256
 
 Encode & Decode Function
